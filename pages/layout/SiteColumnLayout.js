@@ -145,9 +145,11 @@ export default function SiteColumnLayout() {
                   <div className="flex">
                     <a
                       href="#"
-                      className="px-3 py-2 rounded-md text-sm font-medium text-[#2594D1] hover:text-[#d12594] hover:underline"
+                      className="px-3 py-2 rounded-md text-sm font-medium transform duration-500 ease-in-out "
                     >
-                      Documentation
+                      <span className="text-[#2594d1] transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] px-1 py-1 rounded-sm duration-500 ease-in-out ">
+                        Documentation
+                      </span>
                     </a>
                     <a
                       href="#"
