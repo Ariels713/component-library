@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import BreadCrumbs from "../../components/BreadCrumbs";
+import LibraryIntro from "../../components/LibraryIntro";
+import ListCards from "../../components/list-cards/ListCards";
 
 export default function SiteColumnLayout() {
   const [isOpen, setIsOpen] = useState(false);
@@ -191,7 +194,10 @@ export default function SiteColumnLayout() {
                   className="h-full relative"
                   style={{ "min-height": "12rem" }}
                 >
-                  <div className="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"></div>
+                  <div className="absolute inset-0 ">
+                    <ListCards />
+                    <BreadCrumbs />
+                  </div>
                 </div>
                 {/* <!-- End left column area --> */}
               </div>
@@ -200,18 +206,21 @@ export default function SiteColumnLayout() {
             <div className="bg-white lg:min-w-0 lg:flex-1">
               <div className="h-full py-6 px-4 sm:px-6 lg:px-8">
                 {/* <!-- Start main area--> */}
+
                 <div
                   className="relative h-full"
                   style={{ "min-height": "36rem" }}
                 >
-                  <div className="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"></div>
+                  <div className="absolute inset-0 ">
+                    <LibraryIntro />
+                  </div>
                 </div>
                 {/* <!-- End main area --> */}
               </div>
             </div>
           </div>
 
-          <div className="bg-gray-50 pr-4 sm:pr-6 lg:pr-8 lg:flex-shrink-0 lg:border-l lg:border-gray-200 xl:pr-0">
+          <div className="bg-white pr-4 sm:pr-6 lg:pr-8 lg:flex-shrink-0 lg:border-l lg:border-gray-200 xl:pr-0">
             <div className="h-full pl-6 py-6 lg:w-80">
               {/* <!-- Start right column area --> */}
               <div
