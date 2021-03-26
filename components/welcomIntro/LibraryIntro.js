@@ -37,7 +37,9 @@ export default function LibraryIntro() {
           You know how to push my buttons.{" "}
         </p>
       </div>
-
+      <div className="mt-2">
+        <p className="font-semibold text-xl">The NES Collection</p>
+      </div>
       <SnesButton />
     </>
   );
