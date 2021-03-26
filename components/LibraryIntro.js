@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function LibraryIntro() {
+  const [snes, setSnes] = useState(false);
   return (
     <>
       <h1 className="mx-0 mt-0 mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900">
@@ -37,14 +38,43 @@ export default function LibraryIntro() {
       </div>
       <div className="space-y-4 mt-4 text-gray-900 ">
         <p className="font-semibold text-xl">The NES Collection</p>
-        <div>
-          <button className=" border-4 border-[#754c9a] bg-[#8558ad] py-3 px-6 rounded-sm shadow-md  hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8558ad]">
+        <div className="flex items-center justify-start">
+          <div className=" absolute bottom-[125px] bg-gray-800 opacity-10   rounded-sm shadow-lg w-[180px] h-[30px]"></div>
+          <button className=" border-4 border-[#754c9a] bg-[#8558ad] py-3 px-6 rounded-sm shadow-md  hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8558ad] transform hover:-translate-y-8 transition duration-200 ">
             {" "}
             <span className="border-2 border-[#754c9a] border-opacity-50 rounded-full py-2 px-8 text-gray-200 font-semibold text-xl shadow-inner bg-[#8f65b3]">
               Power
             </span>{" "}
           </button>
         </div>
+      </div>
+      <div className="bg-[#04293A] w-full h-96 rounded mt-4">
+        <pre class="overflow-x-auto p-6 m-0 font-mono text-sm leading-snug text-white whitespace-pre bg-black">
+          <code class="text-base leading-5 whitespace-pre">
+            <span class="text-sm text-purple-400">
+              <span class="whitespace-pre">
+                <span class="text-blue-200">&lt;</span>div
+              </span>{" "}
+              <span class="text-teal-400">class</span>
+              <span class="text-yellow-400">
+                <span class="text-blue-200">=</span>
+                <span class="text-blue-200">"</span>
+                <span class="py-px px-1 my-0 -mx-1 whitespace-pre bg-teal-100 rounded-sm">
+                  select-none
+                </span>{" "}
+                ...<span class="text-blue-200">"</span>
+              </span>
+              <span class="text-blue-200">&gt;</span>
+            </span>
+            This text is not selectable
+            <span class="text-sm text-purple-400">
+              <span class="whitespace-pre">
+                <span class="text-blue-200">&lt;/</span>div
+              </span>
+              <span class="text-blue-200">&gt;</span>
+            </span>
+          </code>
+        </pre>
       </div>
     </>
   );
