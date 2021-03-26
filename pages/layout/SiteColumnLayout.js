@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BreadCrumbs from "../../components/breadcrumbs/BreadCrumbs";
-import LibraryIntro from "../../components/LibraryIntro";
+import LibraryIntro from "../../components/welcomIntro/LibraryIntro";
 import ListCards from "../../components/list-cards/ListCards";
 
 export default function SiteColumnLayout() {
@@ -231,7 +231,7 @@ export default function SiteColumnLayout() {
                 className="h-full relative"
                 style={{ "min-height": "16rem" }}
               >
-                <div className="absolute inset-0 border-2 border-gray-200 border-dashed rounded-lg"></div>
+                <div className="absolute inset-0 "></div>
               </div>
               {/* <!-- End right column area --> */}
             </div>
