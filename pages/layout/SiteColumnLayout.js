@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import BreadCrumbs from "../../components/BreadCrumbs";
+import BreadCrumbs from "../../components/breadcrumbs/BreadCrumbs";
 import LibraryIntro from "../../components/LibraryIntro";
 import ListCards from "../../components/list-cards/ListCards";
 
@@ -142,7 +142,7 @@ export default function SiteColumnLayout() {
               {/* <!-- Links section --> */}
               <div className="hidden lg:block lg:w-80">
                 <div className="flex items-center justify-end">
-                  <div className="flex">
+                  <div className="flex -mx-4">
                     <a
                       href="#"
                       className="px-3 py-2 rounded-md text-sm font-medium transform duration-500 ease-in-out "
@@ -153,9 +153,11 @@ export default function SiteColumnLayout() {
                     </a>
                     <a
                       href="#"
-                      className="px-3 py-2 rounded-md text-sm font-medium text-[#2594D1] hover:text-[#d12594] hover:underline"
+                      className="px-3 py-2 rounded-md text-sm font-medium transform duration-500 ease-in-out "
                     >
-                      Support
+                      <span className="text-[#2594d1] transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] px-1 py-1 rounded-sm duration-500 ease-in-out ">
+                        Support
+                      </span>
                     </a>
                   </div>
                 </div>
