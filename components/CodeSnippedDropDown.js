@@ -39,9 +39,9 @@ export default function CodeSnippedDropDown({ codeSnippet, buttonTitle }) {
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     d="M19 9l-7 7-7-7"
                   />
                 </svg>
@@ -62,42 +62,42 @@ export default function CodeSnippedDropDown({ codeSnippet, buttonTitle }) {
                         className="absolute -top-4 right-6"
                       >
                         <title>document-copy</title>
-                        <g stroke-width="2" fill="#d12594" stroke="#d12594">
+                        <g strokeWidth="2" fill="#d12594" stroke="#d12594">
                           <path
                             fill="none"
                             stroke="#d12594"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M2.66 3.8h16.72v19h-16.72z"
                           ></path>
                           <path
                             fill="none"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M4.94 1.52h16.72v19"
                           ></path>
                           <path
                             fill="none"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M5.7 8.74h10.64"
                           ></path>
                           <path
                             fill="none"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M5.7 11.78h10.64"
                           ></path>
                           <path
                             fill="none"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M5.7 14.82h10.64"
                           ></path>
                           <path
                             fill="none"
-                            stroke-linecap="square"
-                            stroke-miterlimit="10"
+                            strokeLinecap="square"
+                            strokeMiterlimit="10"
                             d="M5.7 17.86h4.18"
                           ></path>
                         </g>
