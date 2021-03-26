@@ -191,7 +191,7 @@ export default function SiteColumnLayout() {
         <div className="flex-grow w-full max-w-7xl mx-auto xl:px-8 lg:flex">
           {/* <!-- Left sidebar & main wrapper --> */}
           <div className="flex-1 min-w-0 bg-white xl:flex">
-            <div className="border-b border-gray-200 xl:border-b-0 xl:flex-shrink-0 xl:w-64 xl:border-r xl:border-gray-200 bg-white">
+            <div className=" xl:flex-shrink-0 xl:w-64  bg-white">
               <div className="h-full pl-4 pr-6 py-6 sm:pl-6 lg:pl-8 xl:pl-0">
                 {/* <!-- Start left column area --> */}
                 <div
@@ -224,7 +224,7 @@ export default function SiteColumnLayout() {
             </div>
           </div>
 
-          <div className="bg-white pr-4 sm:pr-6 lg:pr-8 lg:flex-shrink-0 lg:border-l lg:border-gray-200 xl:pr-0">
+          <div className="bg-white pr-4 sm:pr-6 lg:pr-8 lg:flex-shrink-0  xl:pr-0">
             <div className="h-full pl-6 py-6 lg:w-80">
               {/* <!-- Start right column area --> */}
               <div
