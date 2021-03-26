@@ -38,9 +38,11 @@ export default function LibraryIntro() {
       <div className="space-y-4 mt-4 text-gray-900 ">
         <p className="font-semibold text-xl">The NES Collection</p>
         <div>
-          <button className="border-4 border-[#754c9a] py-3 px-8 rounded-sm">
+          <button className=" border-4 border-[#754c9a] bg-[#8558ad] py-3 px-6 rounded-sm shadow-md  hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8558ad]">
             {" "}
-            <span className="border-2 border-red-300">Power</span>{" "}
+            <span className="border-2 border-[#754c9a] border-opacity-50 rounded-full py-2 px-8 text-gray-200 font-semibold text-xl shadow-inner bg-[#8f65b3]">
+              Power
+            </span>{" "}
           </button>
         </div>
       </div>
