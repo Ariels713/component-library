@@ -3,7 +3,7 @@ import React from "react";
 export default function BreadCrumbs() {
   return (
     <>
-      <div className="pb-5 border-b border-gray-200">
+      <div className="pb-5">
         <h3 className="text-sm leading-6 font-medium text-gray-900 mb-2">
           Breadcrumbs
         </h3>
@@ -12,20 +12,6 @@ export default function BreadCrumbs() {
             <a href="#">
               <span className="transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] rounded-sm duration-500 ease-in-out px-1 -mx-1">
                 Classic
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span className="transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] rounded-sm duration-500 ease-in-out px-1 -mx-1">
-                80'x
-              </span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <span className="transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] rounded-sm duration-500 ease-in-out px-1 -mx-1">
-                Apocolypse
               </span>
             </a>
           </li>

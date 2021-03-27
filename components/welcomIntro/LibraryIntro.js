@@ -24,11 +24,11 @@ export default function LibraryIntro() {
           a variety of styles, and some may have one.{" "}
         </p>
         <p>
-          Below are some sample elements. Some elements require javascript and
-          or state (Look for a JS or State label) most don't. To use the
-          Element, click the icon on the top right of the code block, and it'll
-          be added to your clipboard (copied) for you. The following steps are
-          to add it to your code and tweak it to fit your project.
+          Below is a sample elements. Some elements require javascript and or
+          state (Look for a JS or State label) most don't. To use the Element,
+          click the icon on the top right of the code block, and it'll be added
+          to your clipboard (copied) for you. Once you've copied it, add it to
+          your code!
         </p>
       </div>
       <div className="space-y-4 mt-8 text-gray-900 border-t-2 ">

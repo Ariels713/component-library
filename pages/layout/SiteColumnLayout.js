@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import BreadCrumbs from "../../components/breadcrumbs/BreadCrumbs";
 import LibraryIntro from "../../components/welcomIntro/LibraryIntro";
 import ListCards from "../../components/list-cards/ListCards";
+import Footer from "./Footer";
+import ButtonList from "../../components/buttons/ButtonList";
 
 export default function SiteColumnLayout() {
   const [isOpen, setIsOpen] = useState(false);
@@ -201,6 +203,7 @@ export default function SiteColumnLayout() {
                   <div className="absolute inset-0 ">
                     <ListCards />
                     <BreadCrumbs />
+                    <ButtonList />
                   </div>
                 </div>
                 {/* <!-- End left column area --> */}
@@ -219,6 +222,7 @@ export default function SiteColumnLayout() {
                     <LibraryIntro />
                   </div>
                 </div>
+
                 {/* <!-- End main area --> */}
               </div>
             </div>

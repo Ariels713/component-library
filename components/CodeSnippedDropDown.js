@@ -9,7 +9,7 @@ export default function CodeSnippedDropDown({ codeSnippet, buttonTitle }) {
   return (
     <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
       <dl className="space-y-6 divide-y divide-gray-200">
-        <div className="pt-6">
+        <div className="pt-6 pb-12">
           <dt className="text-lg">
             {/* <!-- Expand/collapse question button --> */}
             <button
