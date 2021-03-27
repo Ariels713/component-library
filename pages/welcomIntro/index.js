@@ -1,5 +1,5 @@
 import React from "react";
-import SnesButton from "../buttons/80sButtons/SnesButton";
+import SnesButton from "../80sButtons";
 export default function LibraryIntro() {
   return (
     <>

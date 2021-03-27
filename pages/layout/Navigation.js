@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Link from "next/link";
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -10,28 +10,32 @@ export default function Navigation() {
             {/* <!-- Logo section --> */}
             <div className="flex items-center px-2 lg:px-0 xl:w-64">
               <div className="flex-shrink-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="48"
-                  height="48"
-                  viewBox="0 0 48 48"
-                >
-                  <title>block</title>
-                  <g>
-                    <path
-                      d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z"
-                      fill="#ee9f9f"
-                    ></path>
-                    <path
-                      d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z"
-                      fill="#2594d0"
-                    ></path>
-                    <path
-                      d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z"
-                      fill="#d12594"
-                    ></path>
-                  </g>
-                </svg>{" "}
+                <Link href="/">
+                  <a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="48"
+                      height="48"
+                      viewBox="0 0 48 48"
+                    >
+                      <title>block</title>
+                      <g>
+                        <path
+                          d="M43.879,12.037a.994.994,0,0,0-.413-.422l-19-10a1,1,0,0,0-.932,0l-19,10a1,1,0,0,0-.413.421L24,22.5Z"
+                          fill="#ee9f9f"
+                        ></path>
+                        <path
+                          d="M24,22.5v24a1,1,0,0,0,.466-.115l19-10A1,1,0,0,0,44,35.5v-23a.986.986,0,0,0-.121-.463Zm19,13h0Z"
+                          fill="#2594d0"
+                        ></path>
+                        <path
+                          d="M4.121,12.036A1,1,0,0,0,4,12.5v23a1,1,0,0,0,.534.885l19,10A1,1,0,0,0,24,46.5v-24Z"
+                          fill="#d12594"
+                        ></path>
+                      </g>
+                    </svg>{" "}
+                  </a>
+                </Link>
               </div>
             </div>
 

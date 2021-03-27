@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
-import CodeSnippedDropDown from "../../CodeSnippedDropDown";
+import CodeSnippedDropDown from "../../components/CodeSnippedDropDown";
 
 const buttonCode = `
 <div className="flex items-center justify-start">
