@@ -47,7 +47,7 @@ export default function SiteColumnLayout() {
                             Buttons
                           </h3>
                           <div>
-                            <Link href="/">
+                            <Link href="/80sButtons">
                               <a href="#">
                                 <span className="transition ml-1 text-xs text-gray-600 font-semibold hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] rounded-sm duration-500 ease-in-out px-1 -mx-1">
                                   NES Collection
