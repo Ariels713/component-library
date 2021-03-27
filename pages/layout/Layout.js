@@ -1,12 +1,15 @@
 import Footer from "./Footer";
+import Navigation from "./Navigation";
 import SiteColumnLayout from "./SiteColumnLayout";
 
 export default function Layout({ children }) {
   return (
     <>
       <div>
-        <SiteColumnLayout />
+        <Navigation />
+        {/* <SiteColumnLayout /> */}
         {children}
+        <Footer />
       </div>
     </>
   );

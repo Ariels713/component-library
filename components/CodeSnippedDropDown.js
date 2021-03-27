@@ -48,9 +48,9 @@ export default function CodeSnippedDropDown({ codeSnippet, buttonTitle }) {
               </span>
             </button>
           </dt>
-          <div className={`${isOpen ? "" : "hidden"}`}>
+          <div className={`${isOpen ? " mb-10" : "hidden"}`}>
             <dd className="mt-2 " id="faq-0">
-              <div className="bg-[#04293A] py-10 px-2 w-full rounded mt-4 relative">
+              <div className="bg-[#04293A] py-10 px-2 w-full rounded mt-4">
                 <div className="relative">
                   <CopyToClipboard text={codeSnippet}>
                     <button onClick={() => setCopied(!copied)}>
