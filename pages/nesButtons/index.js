@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
 import CodeSnippedDropDown from "../../components/CodeSnippedDropDown";
+// import LibraryIntro from "../welcomIntro";
 
 const buttonCode = `
 <div className="flex items-center justify-start">
@@ -25,7 +26,7 @@ export default function SnesButton() {
   const [snes, setSnes] = useState(false);
   return (
     <>
-      <div className="mt-4 w-full h-36 bg-gray-300 flex items-center justify-center rounded-sm  ">
+      <div className="mt-4 max-w-2xl h-36 bg-gray-300 flex items-center justify-center rounded-sm  ">
         <div>
           <button className=" border-4 border-[#754c9a] bg-[#8558ad] py-3 px-6 rounded-sm shadow-md  hover:shadow-2xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#8558ad] transform hover:-translate-y-8 transition duration-200">
             {" "}
@@ -35,6 +36,7 @@ export default function SnesButton() {
           </button>
         </div>
       </div>
+      <div></div>
       <CodeSnippedDropDown
         codeSnippet={buttonCode}
         buttonTitle={"SNES Button Code Snippet"}

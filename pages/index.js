@@ -1,6 +1,6 @@
 import Head from "next/head";
 import SiteColumnLayout from "./layout/SiteColumnLayout";
-
+import LibraryIntro from "./welcomeIntro";
 export default function Home() {
   return (
     <div>
@@ -8,7 +8,7 @@ export default function Home() {
         <title>EM Component Library</title>
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <SiteColumnLayout />
+      <LibraryIntro />
     </div>
   );
 }

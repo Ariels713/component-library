@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ListCards() {
+export default function CreatorCard() {
   return (
     <>
       <div className="container flex flex-col mx-auto w-full items-center justify-center mb-6 -ml-4">
