@@ -11,9 +11,9 @@ export default function SiteColumnLayout() {
       <div className="relative min-h-screen flex flex-col flex-grow max-w-7xl mx-auto mt-8 px-10">
         <div className="mt-5 flex-grow  flex flex-col">
           <nav className="w-56 space-y-2 max-h-screen">
-            <a href="https://arielrodriguez.me/" target="_blank">
+            <div href="https://arielrodriguez.me/" target="_blank">
               <CreatorCard />
-            </a>
+            </div>
 
             <div>
               <span> </span>
