@@ -1,4 +1,5 @@
 import React from "react";
+import NesDemo from "../../components/NesDemo";
 import SnesButton from "../nesButtons/index";
 export default function LibraryIntro() {
   return (
@@ -6,7 +7,7 @@ export default function LibraryIntro() {
       <div className="flex-1 relative z-0 flex overflow-hidden ml-16 mt-6">
         <main
           className="flex-1 relative z-0 overflow-y-auto focus:outline-none"
-          tabindex="0"
+          tabIndex="0"
         >
           <div className="py-6 px-4 sm:px-6 lg:px-8">
             <div className="h-full">
@@ -56,7 +57,7 @@ export default function LibraryIntro() {
                   <div className="mt-2">
                     <p className="font-semibold text-xl">The NES Collection</p>
                   </div>
-                  <SnesButton />
+                  <NesDemo />
                 </div>
               </div>
             </div>
