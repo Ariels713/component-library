@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import Link from "next/link";
 import CreatorCard from "../../components/creatorCard/CreatorCard";
-import { BreadCrumbs, ButtonList } from "../../components/componentType";
+
 import LibraryIntro from "../welcomeIntro";
 
 export default function SiteColumnLayout() {
