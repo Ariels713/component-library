@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Highlight, { defaultProps } from "prism-react-renderer";
 import theme from "prism-react-renderer/themes/nightOwl";
 import CodeSnippedDropDown from "../../components/CodeSnippedDropDown";
-// import LibraryIntro from "../welcomIntro";
 
 const buttonCode = `
 <div className="flex items-center justify-start">
@@ -23,7 +22,6 @@ const buttonCode = `
 `.trim();
 
 export default function NesDemo() {
-  const [snes, setSnes] = useState(false);
   return (
     <>
       <div className="mt-4 max-w-2xl h-36 bg-gray-300 flex items-center justify-center rounded-sm  ">

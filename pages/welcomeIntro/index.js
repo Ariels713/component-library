@@ -1,6 +1,7 @@
 import React from "react";
-import NesDemo from "../../components/NesDemo";
-import SnesButton from "../nesButtons/index";
+import CreatorCard from "../../components/creatorCard/CreatorCard";
+import NesDemo from "../../components/nesDemo";
+
 export default function LibraryIntro() {
   return (
     <>
