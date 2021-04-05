@@ -141,14 +141,9 @@ export default function Navigation() {
                       Documentation
                     </span>
                   </a>
-                  <a
-                    href="#"
-                    className="px-3 py-2 rounded-md text-sm font-medium transform duration-500 ease-in-out "
-                  >
-                    <span className="text-[#2594d1] transition hover:text-white hover:bg-gradient-to-r from-[#2594D1] to-[#d12594] px-1 py-1 rounded-sm duration-500 ease-in-out ">
-                      Support
-                    </span>
-                  </a>
+                  <p className="px-3 py-2  text-sm font-medium  ">
+                    <span className="text-[#2594d1]  px-1 py-1  ">V 1.1</span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -171,7 +166,7 @@ export default function Navigation() {
               href="#"
               className="block px-3 py-2 rounded-md text-base font-medium text-white bg-[#d12594] hover:bg-[#ee9f9f]"
             >
-              Support
+              V 1.1
             </a>
           </div>
         </div>

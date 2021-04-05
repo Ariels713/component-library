@@ -32,6 +32,20 @@ export default function SiteColumnLayout() {
                 </li>
               </ul>
             </div>
+            <div>
+              <h3 className="text-gray-900 font-semibold -ml-2  text-base">
+                Chat Boxes
+              </h3>
+              <ul>
+                <li>
+                  <Link href="/chatBoxes">
+                    <a className="text-sm text-gray-600 font-semibold" href="#">
+                      Andriod
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
         {/* <div className="max-w-2xl flex-grow w-full xl:px-12 lg:flex">
