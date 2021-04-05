@@ -131,7 +131,7 @@ export default function Navigation() {
             </div>
             {/* <!-- Links section --> */}
             <div className="hidden lg:block lg:w-80">
-              <div className="flex items-center justify-end">
+              <div className="flex items-center justify-start">
                 <div className="flex -mx-4">
                   <a
                     href="#"

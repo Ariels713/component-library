@@ -18,29 +18,41 @@ export default function SiteColumnLayout() {
             <div>
               <span> </span>
             </div>
-            <div>
-              <h3 className="text-gray-900 font-semibold -ml-2  text-base">
+            <div className="-mr-6">
+              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-3 -ml-6">
+                Components
+              </h5>
+
+              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
                 Buttons
-              </h3>
-              <ul>
+              </h5>
+
+              <ul className="text-gray-600 text-sm -ml-3">
                 <li>
                   <Link href="/nesButtons">
-                    <a className="text-sm text-gray-600 font-semibold" href="#">
+                    <a
+                      className="text-left  cursor-pointer hover:text-gray-900 transition delay-150"
+                      href="#"
+                    >
                       NES Collection
                     </a>
                   </Link>
                 </li>
               </ul>
             </div>
-            <div>
-              <h3 className="text-gray-900 font-semibold -ml-2  text-base">
+            <div className="-mr-6">
+              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
                 Chat Boxes
-              </h3>
-              <ul>
+              </h5>
+
+              <ul className="text-gray-600 text-sm -ml-3">
                 <li>
                   <Link href="/chatBoxes">
-                    <a className="text-sm text-gray-600 font-semibold" href="#">
-                      Andriod
+                    <a
+                      className="text-left  cursor-pointer hover:text-gray-900 transition delay-150"
+                      href="#"
+                    >
+                      Andriod{" "}
                     </a>
                   </Link>
                 </li>

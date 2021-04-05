@@ -49,11 +49,11 @@ export default function index() {
             {/* </div> */}
           </div>
         </main>
-        <aside className="hidden relative xl:flex xl:flex-col flex-shrink-0 w-96 -">
+        <aside className="hidden relative xl:flex xl:flex-col flex-shrink-0 w-96 pr-8">
           {/* <!-- Start secondary column (hidden on smaller screens) --> */}
           <div className="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8">
             <div className="h-full flex justify-start ">
-              <h3>Variations:</h3>
+              <p>Components</p>
             </div>
           </div>
         </aside>
