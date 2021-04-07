@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function nesButtons() {
+export default function NESButtons() {
   return (
     <div className="mt-4 max-w-2xl h-36 bg-gray-300 flex items-center justify-center rounded-sm relative ">
       {/* <div className="bg-[#8558ad] opacity-75 w-[180px] h-[66px] absolute top-11 left-[180px]  shadow-inner"></div> */}

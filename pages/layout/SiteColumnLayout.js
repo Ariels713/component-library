@@ -19,11 +19,11 @@ export default function SiteColumnLayout() {
               <span> </span>
             </div>
             <div className="-mr-6">
-              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-3 -ml-6">
+              <h5 className="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-3 -ml-6">
                 Components
               </h5>
 
-              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
+              <h5 className="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
                 Buttons
               </h5>
 
@@ -41,7 +41,7 @@ export default function SiteColumnLayout() {
               </ul>
             </div>
             <div className="-mr-6">
-              <h5 class="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
+              <h5 className="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
                 Chat Boxes
               </h5>
 
@@ -53,6 +53,24 @@ export default function SiteColumnLayout() {
                       href="#"
                     >
                       Andriod{" "}
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="-mr-6">
+              <h5 className="px-3 mx-0 mt-0 mb-3 text-sm font-semibold tracking-wide leading-5 text-left text-gray-900 uppercase lg:text-xs lg:leading-4 lg:mb-1 -ml-6">
+                Forms
+              </h5>
+
+              <ul className="text-gray-600 text-sm -ml-3">
+                <li>
+                  <Link href="/forms">
+                    <a
+                      className="text-left  cursor-pointer hover:text-gray-900 transition delay-150"
+                      href="#"
+                    >
+                      Registration Form
                     </a>
                   </Link>
                 </li>
