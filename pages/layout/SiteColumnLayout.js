@@ -29,6 +29,16 @@ export default function SiteColumnLayout() {
 
               <ul className="text-gray-600 text-sm -ml-3">
                 <li>
+                  <Link href="/buttons">
+                    <a
+                      className="text-left  cursor-pointer hover:text-gray-900 transition delay-150"
+                      href="#"
+                    >
+                      Buttons
+                    </a>
+                  </Link>
+                </li>
+                <li>
                   <Link href="/3Dbuttons">
                     <a
                       className="text-left  cursor-pointer hover:text-gray-900 transition delay-150"
