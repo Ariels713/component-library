@@ -1,5 +1,7 @@
 import React from "react";
+import { buttonsCodeSnippet } from "../../codeSnippets/buttons/buttonsCodeSnippet";
 import Buttons from "../../components/ buttons/Buttons";
+import CodeSnippedDropDown from "../../components/CodeSnippedDropDown";
 
 export default function index() {
   return (
@@ -22,10 +24,10 @@ export default function index() {
                 </p>
               </div>
               <Buttons />
-              {/* <CodeSnippedDropDown
-                  codeSnippet={butons3DCodeSnippet}
-                  buttonTitle={"Josh Comeau's Button"}
-                />  */}
+              <CodeSnippedDropDown
+                codeSnippet={buttonsCodeSnippet}
+                buttonTitle={"Classic Button"}
+              />
             </div>
           </div>
           <div className=" px-4 sm:px-6 lg:px-8">
@@ -48,8 +50,8 @@ export default function index() {
             </div>
           </div>
         </main>
+        {/* <!-- Start secondary column (hidden on smaller screens) --> */}
         <aside className="hidden relative xl:flex xl:flex-col flex-shrink-0 w-96 -">
-          {/* <!-- Start secondary column (hidden on smaller screens) --> */}
           <div className="absolute inset-0 py-6 px-4 sm:px-6 lg:px-8">
             <div className="h-full flex justify-start ">
               <h3>Variations:</h3>
